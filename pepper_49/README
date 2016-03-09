@@ -1,0 +1,28 @@
+Welcome to the Native Client SDK
+================================
+
+Native Client Tools Bundle
+Version: 49
+Chrome Revision: 561
+Chrome Commit Position: 76745cbfbdac04e2fe3204f8b4f96ae7dc6bfcfa-refs/branch-heads/2623@{#561}
+Native Client Revision: 26c7e6ae1327a43c948f4666fef9e84fe351ab7c
+Build Date: 2016/03/01 20:11:42
+
+Please refer to the online documentation here:
+
+  https://developer.chrome.com/native-client
+
+Contributing
+------------
+
+If you want to contribute to the Native Client SDK itself, please read the
+online documentation on contributing code to Chromium here:
+
+  http://www.chromium.org/developers/contributing-code
+
+Known Issues
+------------
+
+Please refer to the online documentation here:
+
+  https://developer.chrome.com/native-client/sdk/release-notes
