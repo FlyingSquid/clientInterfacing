@@ -1,6 +1,6 @@
 # clientInterfacing
 
-To run the Hello World example:  
+To run the Hello World example:    
 1. Make sure your Google Chrome browser is version 49 or higher.  
 2. Change into the directory nacl_sdk/pepper_49/getting_started/part1.  
 3. Execute 'make'.  
