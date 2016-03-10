@@ -33,7 +33,9 @@ namespace {
 const char* const kHelloString = "hello";
 // The string sent back to the browser upon receipt of a message
 // containing "hello".
-const char* const kReplyString = "hello from NaCl";
+const char* const kReplyString = "Flying Squid: Hello Browser! From NaCl";
+
+const char* const testingString = "TESTING";
 } // namespace
 
 /// The Instance class.  One of these exists for each instance of your NaCl
@@ -50,7 +52,14 @@ class HelloTutorialInstance : public pp::Instance {
   /// The constructor creates the plugin-side instance.
   /// @param[in] instance the handle to the browser-side plugin instance.
   explicit HelloTutorialInstance(PP_Instance instance) : pp::Instance(instance)
-  {}
+  {
+    pp::Var var_show;
+    var_show = pp::Var(testingString);
+    PostMessage(var_show);
+
+    /* Receive Rabin Fingerprinting blocks here */
+
+  }
   virtual ~HelloTutorialInstance() {}
 
   /// Handler for messages coming in from the browser via postMessage().  The
